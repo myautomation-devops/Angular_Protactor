@@ -1,6 +1,6 @@
 var xls = require('xlsx');
 var methods = {};
-var cell = 'B3';
+var cell = 'B4';
 
 methods.getJson = function(){
     var workbook = xls.readFile(browser.params.filename);
